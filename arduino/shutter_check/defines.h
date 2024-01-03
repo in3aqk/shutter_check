@@ -8,11 +8,16 @@
 #define SENSOR2 3  //central sensor
 #define SENSOR3 4  //last sensor
 
-#define BTN1 5 // Mode button pin
-#define BTN2 6 // Page button pin
+#define LIGHT 0 //sensor see light
+#define DARK 1 //sensor in dark
 
-#define MODE_SHUTTER false //only measure shutter time
-#define MODE_COURTAIN true //measure courtain shutters parameters
+
+#define BTN1 5  // Mode button pin
+#define BTN2 6  // Page button pin
+
+#define M_CENTRAL_SHUTTER 0   //only measure central shutter speed
+#define M_COURTAIN_SHUTTER 1  //measure courtain shutter speed
+#define M_COURTAIN_SPEED 2    //measure courtain shutters parameter
 
 #define DISTANCE 7.40  //distance in mm between sensors
 

@@ -4,6 +4,7 @@
   - [Leica](#leica)
   - [Fed / Zorki](#fed--zorki)
 - [Links](#links)
+  - [shutter speed calculation](#shutter-speed-calculation)
   - [Useful](#useful)
     - [Leica shutter](#leica-shutter)
 
@@ -52,6 +53,14 @@ Fed/ Zorki first courtain travel time is about 33 ms, about 1100 mm/s 11 cm/sec
 
 
 # Links 
+
+## shutter speed calculation
+
+https://www.photrio.com/forum/threads/calculating-shutter-speeds-for-guillotine-shutters.175530/
+https://www.largeformatphotography.info/guillotine-shutter/guillotine-shutter-speeds.html
+
+https://www.mdpi.com/1424-8220/22/5/1871
+
 
 ## Useful
 http://rick_oleson.tripod.com/
