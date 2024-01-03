@@ -21,9 +21,11 @@ extern bool ready3;  //sensor 3 data ready
 void process(void);
 void centralShutter(void);
 void courtainShutter(void);
-void courtainSpeed(void);
+void courtainSpeed(int);
 
-
-
+float totalTravel(float, int);
+float mediumTravel(long, long, long);
+float speed(float, int);
+int trend(long,long);
 
 #endif

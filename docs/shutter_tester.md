@@ -1,16 +1,22 @@
 - [Courtain speed](#courtain-speed)
+  - [Some know data](#some-know-data)
   - [Teoric](#teoric)
   - [Measured](#measured)
   - [Leica](#leica)
   - [Fed / Zorki](#fed--zorki)
 - [Links](#links)
   - [shutter speed calculation](#shutter-speed-calculation)
+  - [Projects](#projects)
   - [Useful](#useful)
     - [Leica shutter](#leica-shutter)
 
 
 
 # Courtain speed
+
+## Some know data
+https://github.com/srozum/film_camera_tester/wiki/Curtains-Travel-Times
+
 
 Normally the courtain speed in m/sec is the same as the flash sincro speed.
 As at the syncro speed only the first courtain is fully open for the entire time of the exposure. It's the slower speed without delays systems
@@ -28,8 +34,7 @@ As at the syncro speed only the first courtain is fully open for the entire time
 
 |Camera  |speed |syncro |travel time ms|speed cm/s  | notes  |
 |---|---|---|---|---|---|
-|Fed 2  |1/25 |yes |14|10|
-|Fed 2  |1/100 |no |18|20|
+|Fed 2  |1/25 |yes |15|22|
 |Fed 5  |1/30 |yes |8.6|42|
 |Fed 5  |1/125 |no |10|36|
 
@@ -56,11 +61,19 @@ Fed/ Zorki first courtain travel time is about 33 ms, about 1100 mm/s 11 cm/sec
 
 ## shutter speed calculation
 
+https://www.scantips.com/lights/fstop2.html
+
 https://www.photrio.com/forum/threads/calculating-shutter-speeds-for-guillotine-shutters.175530/
 https://www.largeformatphotography.info/guillotine-shutter/guillotine-shutter-speeds.html
 
 https://www.mdpi.com/1424-8220/22/5/1871
 
+https://www.scantips.com/lights/math.html
+
+
+## Projects
+
+https://github.com/srozum/film_camera_tester/wiki
 
 ## Useful
 http://rick_oleson.tripod.com/

@@ -10,7 +10,7 @@ int sensor1;
 int sensor2;
 int sensor3;
 
-int mode = M_CENTRAL_SHUTTER;
+int mode = M_COURTAIN_SPEED_H;
 
 bool on1 = false;  //sensor 1 on flag
 bool on2 = false;  //sensor 2 on flag
@@ -45,7 +45,7 @@ void setup() {
 
   Serial.begin(SERIAL_SPEED);
   Serial.println("READY!");
-  Serial.println("mode: shutter");
+  //Serial.println("mode: shutter");
 }
 
 
@@ -109,13 +109,26 @@ void get(void) {
 }
 
 
-
-
-static void modeClick() {
-  if (mode < M_COURTAIN_SPEED) {
+static void modeClick() {  
+  if (mode < M_COURTAIN_SPEED_V) {
     mode += 1;
   } else {
     mode = M_CENTRAL_SHUTTER;
+  }
+  Serial.print("Mode: ");
+  switch (mode) {
+    case M_CENTRAL_SHUTTER:
+      Serial.println("Central shutter");      
+      break;
+    case M_COURTAIN_SHUTTER:
+      Serial.println("Courtain shutter");
+      break;
+    case M_COURTAIN_SPEED_H:
+      Serial.println("Courtain speed horizzonatal");
+      break;
+    case M_COURTAIN_SPEED_V:
+      Serial.println("Courtain speed vertical");
+      break;
   }
 }
 
