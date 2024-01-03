@@ -131,7 +131,7 @@ void courtainSpeed(int direction) {
   if (SERIAL_PRINT) {
 
     Serial.println("Process courtain speed data");
-
+    
     Serial.println("---TIME---");
     Serial.print("first courtain travel time: ");
     Serial.println(firstTravelT);

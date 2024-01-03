@@ -125,9 +125,11 @@ static void modeClick() {
       break;
     case M_COURTAIN_SPEED_H:
       Serial.println("Courtain speed horizzonatal");
+      Serial.println("SET SPEED TO MODE B OR FLASH SYNC TIME OR LOWER!!");
       break;
     case M_COURTAIN_SPEED_V:
       Serial.println("Courtain speed vertical");
+      Serial.println("SET SPEED TO MODE B OR FLASH SYNC TIME OR LOWER!!");
       break;
   }
 }
